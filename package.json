@@ -1,0 +1,27 @@
+{
+  "name": "@virto-network/poc-referenda-metadata-set",
+  "version": "1.0.0",
+  "description": "Proof of concept for the `Referenda::MetadataSet` event",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm --env-file .env index.ts"
+  },
+  "keywords": [
+    "polkadot",
+    "referenda"
+  ],
+  "author": "Pablo Dorado <hola@pablodorado.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@acala-network/chopsticks": "^0.10.2",
+    "@polkadot/api": "^10.13.1",
+    "@polkadot/wasm-crypto": "^7.3.2",
+    "hash-wasm": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@tsconfig/node21": "^21.0.3",
+    "ts-node": "^10.9.2"
+  }
+}
